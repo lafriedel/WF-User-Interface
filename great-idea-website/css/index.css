@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* End of Meyer CSS Reset
 
 /* Set every element's box-sizing to border-box */
 * {
@@ -60,7 +61,104 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 16px;
 }
 
 /* Your code starts here! */
+
+h1 {
+	font-size: 80px;
+	/* margin: 25px; */
+}
+
+a {
+	color: lightgray;
+	text-decoration: none;
+}
+nav {
+	position: relative;
+	margin-top: 40px;
+}
+nav a {
+	margin-right: 75px;
+}
+
+/* nav img {
+	position: absolute;
+	right: 0;
+  } */
+
+footer {
+	margin-top: 50px;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.button {
+  background: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 50px;
+}
+
+.header-content {
+	display: inline-block;
+	text-align: center;
+	margin: 100px 0 100px 100px;
+}
+
+.tagline {
+	margin-top: 75px;
+}
+.features {
+  border-top: 1px solid black;
+  /* width: 100%; */
+}
+
+.feature-content {
+  display: inline-block;
+  margin: 50px 0;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.feature-content:first-child {
+	padding-left: 0;
+}
+.feature-content:last-child {
+	padding-right: 0;
+}
+.middle-img {
+	width: 100%;
+}
+.product {
+	border-bottom: 1px solid black;
+}
+
+.product-content {
+	display: inline-block;
+	margin: 50px 0px;
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.product-content:first-child {
+	padding-left: 0;
+}
+.product-content:last-child {
+	padding-right: 0;
+}
+
+.contact {
+	margin-top: 50px;
+}
+
+.address-type {
+	margin-bottom: 20px;
+}
