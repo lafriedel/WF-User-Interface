@@ -74,7 +74,7 @@ header {
 
 h1 {
 	font-size: 80px;
-	/* margin: 25px; */
+	margin-bottom: 100px;
 }
 
 a {
@@ -110,6 +110,7 @@ footer {
   color: black;
   border: 1px solid black;
   padding: 5px 50px;
+  
 }
 
 .header-content {
@@ -120,11 +121,6 @@ footer {
 
 .header-content img {
 	width: 90%;
-}
-.tagline {
-	display: inline-block;
-	text-align: center;
-	width: 50%;
 }
 .features {
   border-top: 1px solid black;
@@ -138,12 +134,18 @@ footer {
   padding: 0 10px;
 }
 
-.feature-content:first-child {
+.tagline {
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+/* .feature-content:first-child {
 	padding-left: 0;
 }
 .feature-content:last-child {
-	padding-right: 0;
-}
+	padding-right: 0; 
+}*/
+
 .middle-img {
 	width: 100%;
 }
