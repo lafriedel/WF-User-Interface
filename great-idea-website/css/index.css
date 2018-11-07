@@ -124,7 +124,6 @@ footer {
 }
 .features {
   border-top: 1px solid black;
-  /* width: 100%; */
 }
 
 .feature-content {
@@ -139,12 +138,6 @@ footer {
 	text-align: center;
 	width: 50%;
 }
-/* .feature-content:first-child {
-	padding-left: 0;
-}
-.feature-content:last-child {
-	padding-right: 0; 
-}*/
 
 .middle-img {
 	width: 100%;
