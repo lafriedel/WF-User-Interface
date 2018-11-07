@@ -67,6 +67,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+header {
+	width: 100%;
+	margin: 100px 0;
+}
+
 h1 {
 	font-size: 80px;
 	/* margin: 25px; */
@@ -84,10 +89,10 @@ nav a {
 	margin-right: 75px;
 }
 
-/* nav img {
+nav img {
 	position: absolute;
 	right: 0;
-  } */
+  }
 
 footer {
 	margin-top: 50px;
@@ -109,12 +114,17 @@ footer {
 
 .header-content {
 	display: inline-block;
-	text-align: center;
-	margin: 100px 0 100px 100px;
+	text-align: right;
+	width: 50%;
 }
 
+.header-content img {
+	width: 90%;
+}
 .tagline {
-	margin-top: 75px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
 }
 .features {
   border-top: 1px solid black;
